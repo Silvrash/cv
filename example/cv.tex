@@ -1,0 +1,51 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative,10pt,compact]{yaac-another-awesome-cv}
+\name{Benjamin}{Arko Afrasah}
+\tagline{Senior Software Engineer}
+\photo{2.5cm}{ben}
+\socialinfo{
+	\linkedin{benjamin-arko-afrasah-0452a0148}\\
+	\github{Silvrash}
+	\gitlab{benjin}\\
+	\smartphone{ +233 24 244 0125}
+	\email{ barkoafrasah@gmail.com}\\
+	\address{Plt7 BlkF, Kotei-Deduako, Kumasi, Ghana}\\
+	\birthday{27th January, 1998}
+}
+
+% Uncomment the following line and use a value from 1.5cm to 2.5cm
+% \setleftcolumnlength{2.5cm}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{\selectlanguage{english}\today}}
+		{\textsc{Benjamin Arko Afrasah - CV}}
+		{\thepage}
+
+	\input{section_headline_archi}
+	\input{section_competences}				% Section compétence
+	\input{section_experience_short}		% Section expérience
+	\input{section_education}
+	\input{section_langues}				% Section langues
+	\input{section_scolarite}				% Section scholarité
+	%\input{section_interets}				% Section intérêts
+	%\newpage
+	\input{section_projets}
+	\input{section_references} 				% Section références
+
+
+\end{document}
